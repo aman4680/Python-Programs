@@ -1,0 +1,7 @@
+a=int(input("Enter number"))
+if a>10:
+    print("Hello World")
+else:
+    print("Terminate the Program")
+    
+print("Program ended")

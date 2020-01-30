@@ -1,0 +1,7 @@
+a=int(input("Enter a number till when you want to take input"))
+l=[]
+for i in range(0,a):
+    b=int(input("Enter number"))
+    if(b%2==0):
+        l.append(b)
+print(l)

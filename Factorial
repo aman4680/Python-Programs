@@ -1,6 +1,8 @@
 n=int(input("Enter number whose factorial you want to calculate: "))
 fact = 1
-while(n!=0):
-    fact=fact*n;
-    n-=1
-print(fact)
+if(n!=0):
+    while(n!=0):
+        fact=fact*n;
+        n-=1
+    print(fact)
+else: print("1")
